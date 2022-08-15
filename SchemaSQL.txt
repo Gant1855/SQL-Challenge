@@ -30,6 +30,13 @@ CREATE TABLE "dept_manager" (
     "emp_no" int   NOT NULL
 );
 
+
+CREATE TABLE "dept_emp" (
+    "dept_no" int   NOT NULL,
+    "emp_no" int   NOT NULL
+);
+
+
 CREATE TABLE "salaries" (
     "emp_no" int   NOT NULL,
     "salary" int   NOT NULL
